@@ -9,6 +9,7 @@ body{
 }
 .container{
 	margin: 0 auto;
+	width: 75%;
 	max-width: 1000px;
 	padding: 0 15px;
 }
@@ -37,4 +38,40 @@ body{
 	font-size: 1.7em;
 	margin-bottom: 0.5em;
 	padding-top: 0;
+}
+.post-title{
+	border-bottom: 1px solid #b7b7b7;
+	color: #515151;
+	font-size: 1.4em;
+	font-weight: normal;
+	margin: 0;
+	padding: 0.455em 0 0.909em;
+}
+.post-anterior{
+	display: inline-block;
+	margin: 0 2% 1em 0;
+	overflow: hidden;
+	vertical-align: top;
+	width: 31.7%;
+}
+.post-meta{
+	font-size: 0.9em;
+	font-family: 'Quicksand', sans-serif;
+}
+.post-meta .autor, .post-meta .fecha{
+	margin: 0.714em 0;
+}
+.post-meta .fecha{
+	float: right;
+}
+.post-meta>*{
+	display: inline-block;
+}
+.anterior-img{
+	max-height: 215px;
+	margin: 0;
+	overflow: hidden;
+}
+.anterior-img img{
+	width: 100%;
 }
